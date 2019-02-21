@@ -1,0 +1,211 @@
+#highlighted {
+	color: #333333;
+}
+
+.owl-carousel .owl-controls {
+  margin: 0;
+}
+.owl-carousel .owl-controls .owl-buttons div {
+  text-indent: 0;
+  font-size: 0;
+  background: none;
+  width: 40px;
+  height: 75px;
+  line-height: 75px;
+  color: #333333;
+  text-align: center;
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  position: absolute;
+  top: 50%;
+  margin-top: -75px;
+  right: 0;
+  left: auto;
+  -webkit-transition: all 220ms ease-out;
+  -moz-transition: all 220ms ease-out;
+  -o-transition: all 220ms ease-out;
+  transition: all 220ms ease-out;
+}
+.owl-carousel .owl-controls .owl-buttons div:before {
+  content: '\f105';
+  font-family: 'FontAwesome';
+  font-size: 32px;
+  color: #333333;
+}
+.owl-carousel .owl-controls .owl-buttons div.owl-prev {
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+  left: 0;
+  right: auto;
+}
+.owl-carousel .owl-controls .owl-buttons div.owl-prev:before {
+  content: '\f104';
+}
+.owl-carousel .owl-controls .owl-buttons div:hover {
+  text-decoration: none;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.owl-carousel:hover .owl-controls .owl-buttons div {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.owl-carousel .owl-controls .owl-pagination {
+  bottom: 10px;
+  right: 5px;
+  width: auto;
+  position: absolute;
+}
+.owl-carousel .owl-controls .owl-pagination .owl-page span {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  height: 16px;
+  width: 16px;
+  border: 1px solid #e4be13;
+  background: transparent;
+  margin: 2px 4px;
+  -webkit-transition: all 220ms ease-out;
+  -moz-transition: all 220ms ease-out;
+  -o-transition: all 220ms ease-out;
+  transition: all 220ms ease-out;
+}
+.owl-carousel .owl-controls .owl-pagination .owl-page.active span {
+  background: #ffffff;
+}
+.item-slider .item-caption {
+  padding: 2em;
+}
+@media (min-width: 992px) {
+  .item-slider .item-caption {
+    padding: 0;
+  }
+}
+.item-carousel .item {
+  display: block;
+  float: left;
+  padding: 0 5px;
+}
+.item-carousel .item-details {
+  padding: 1em;
+  background: #f3f3f3;
+  border-bottom: 1px solid #bfbfbf;
+}
+.item-carousel .item-details .item-title {
+  font-weight: 600;
+}
+.item-carousel .item-details .item-title a {
+  color: #343331;
+}
+.item-carousel.owl-carousel .owl-controls .owl-buttons div {
+  background-color: #e4be13;
+}
+
+
+
+.blockTab {
+	display: inline-block;
+	width:100%;
+	padding: 16px 10px;
+	margin-bottom: 5px;
+}
+
+	.blockTab .contentTab {
+		display: inline-block;
+		width:100%;
+		color:#ffffff;
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+		.blockTab .contentTab .titleTab {
+			padding-top:6px;
+			font-size: 24px;
+			line-height: 18px;
+		}
+
+		.blockTab .contentTab:hover .titleTab {
+			color: #e4be13;
+			text-decoration: underline;
+		}
+
+		.blockTab .contentTab:hover .iconTab {
+			color: #e4be13;
+			border-color: #e4be13;
+		}
+
+		.blockTab .contentTab .iconTab {
+			width:36px;
+			height: 36px;
+			padding: 4px;
+			text-align: center;
+		    font-size: 22px;
+		    line-height: 18px;
+		    float: left;
+		    margin-right: 12px;
+		    color: #ffffff;
+			border: 2px solid #ffffff;
+			-webkit-border-radius: 50%;
+  			-moz-border-radius: 50%;
+  			border-radius: 50%;
+		}
+			.blockTab .contentTab .iconTab .fa {
+				font-size: 18px;
+		    	line-height: 26px;
+			}
+
+		.blockTab .contentTab small {
+		    font-size: 11px;
+		    line-height: 12px;
+		    display:inline-block;
+		}
+
+	.blockTab.darkGreen {
+		margin-top: 60px;
+		background: #346667;
+	} 
+
+		.blockTab.darkGreen .contentTab {
+			border-bottom: 1px solid #ffffff;
+			margin-bottom: 10px;
+		}
+
+		.blockTab.darkGreen .contentTab .iconTab {
+			margin-bottom:20px;
+		}
+
+		.blockTab.darkGreen input[type=text] {
+			-webkit-border-radius: 12px;
+  			-moz-border-radius: 12px;
+  			border-radius: 12px;
+  			border: 0px;
+			background: #ffffff;
+			color: #999999;
+			font-size: 18px;
+		    line-height: 24px;
+			padding: 4px 6px;
+			margin-right: 6px;
+		}
+
+		.blockTab.darkGreen input[type=submit] {
+			-webkit-border-radius: 12px;
+  			-moz-border-radius: 12px;
+  			border-radius: 12px;
+  			border: 0px;
+			background: #103434;
+			color: #ffffff;
+			font-size: 15px;
+		    line-height: 24px;
+			padding: 5px 10px;
+		}
+
+	.blockTab.lightGreen {
+		background: #41a3a4;
+	} 
+
