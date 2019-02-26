@@ -1,0 +1,316 @@
+.headerPage-left, .headerPage-right {
+  display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: calc(50% - 2px);
+}
+
+.headerPage-right {
+    text-align: right;
+}
+
+.header-title-icon, .title-container {
+    display: inline-block;
+}
+
+.upperTitle {
+    font-weight: 500;
+}
+
+.titlePage {
+    font-size: 2em;
+    font-weight: 500;
+    color: #194140;
+    width: 30%;
+    display: inline-block;
+}
+
+.num-results {
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.headerPage-right__label {
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+
+.headerPage-right__resultperpag, .headerPage-right__resultperpag i {
+    text-decoration: underline;
+}
+
+.filterPage .table tr { position: relative; }
+
+.filterPage .table td {
+    color: #194140;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background: #ccc;
+}
+
+td:nth-child(2) {
+    text-align: right; position: absolute; right: 10px;
+}
+
+/* Aside */
+.aside-infosalute {
+    background: #336667;
+}
+
+.aside-infosalute, .aside-prodotti, .aside-consulenza {
+    padding: 10px 20px;
+}
+
+.infosalute-heading {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.infosalute-heading img, .infosalute-heading-text {
+    display: inline-block; vertical-align: super;
+}
+
+.infosalute-heading-text {
+    display: inline-block;
+    width: 75%;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.infosalute-heading-text__title {
+    display: block; text-transform: uppercase; font-size: 1.1em;
+}
+
+.infosalute-heading-text__subtitle {
+    font-size: 0.9em; font-weight: 300;
+}
+
+.infosalute-searchbox input, .infosalute-searchbox button { border-radius: 15px; }
+.infosalute-searchbox input {
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    padding: 5px 10px;;
+    font-size: 1.3em;
+}
+
+.infosalute-searchbox button {
+    background: #184140;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 20px;
+    margin-top: 15px;
+}
+
+.aside-prodotti, .aside-consulenza {
+    background: #41a3a4;
+    margin: 5px 0px;
+}
+
+.aside-prodotti h3, .aside-consulenza h3 {
+    display: inline;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.aside-prodotti img, .aside-consulenza img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.aside-banner-prodotti, .aside-prodotti-consigliati {
+    margin-top: 40px;
+}
+
+.aside-banner-prodotti img {
+    margin: 0 auto;
+}
+
+.aside-prodotti-consigliati {
+    background: #f8efc4;
+    color: #184140;
+    text-align: center;
+}
+
+.aside-prodotti-consigliati__body, .aside-prodotti-consigliati__slider {
+    padding: 0 15px 10px;
+}
+
+.aside-prodotti-consigliati__head img {
+    margin: 0 auto;
+}
+
+.aside-prodotti-consigliati__body h3 {
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.aside-prodotti-consigliati__body h4 {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.aside-prodotti-consigliati__body p {
+    font-size: .85em;
+}
+
+.aside-prodotti-consigliati__slider h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.aside-prodotti-consigliati__slider h4:before, .aside-prodotti-consigliati__slider h4:after {
+    content: url(../img/linea-oro-before-after.png);
+    padding: 3px;
+    vertical-align: super;
+}
+
+a.right.carousel-control, a.left.carousel-control {
+    background: transparent;
+}
+
+span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
+    color: #111;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    margin: 0 auto;
+}
+
+.pre-footer {
+    background: #eaeaea;
+    margin-top: 30px;
+}
+
+.pre-footer-block1__title {
+    font-size: 1.4em;
+}
+
+.pre-footer-block1__date {
+    color: #e3bd12;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.pre-footer-block1__grid__elem1 {
+    padding-right: 40px;
+}
+
+.pre-footer-block1__grid {
+    display: flex;
+}
+
+.pre-footer-block2 {
+    margin: 25px 0;
+    padding: 15px 25px;
+}
+
+.pre-footer-block2 .pre-footer-block1__title {
+    width: 150px;
+}
+
+.pagination {
+    display: block;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.paginator__head {
+    margin-right: 15px;
+}
+
+.paginator__pages {
+    font-size: 1.3em;
+}
+
+.paginator__pages strong {
+    border: 2px solid #184140;
+    border-radius: 15px;
+    width: 25px;
+    display: inline-block;
+    padding: 2px;
+    text-align: center;
+}
+
+.nav-item {
+    font-size: 1.5em;
+    background: #eaeaea;
+    height: 30px;
+    padding: 8px 15px;
+    display: inline-block;
+    color: #737272cc;
+}
+
+.nav-item:first-of-type {
+    background: #fff;
+    color: #184140;
+}
+
+.nav-item.active {
+    background: #fff;
+    color: #184140;
+    font-weight: 500;
+}
+
+#nav-sintomi {
+    padding: 15px;
+}
+
+.elenco-block {
+    margin-bottom: 50px;
+}
+
+.elenco-block-capital {
+    font-size: 3em;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #848484;
+}
+
+.list-items {
+    padding: 0;
+    list-style: none;
+    text-decoration: underline;
+}
+
+ul.nav-tabs li {
+    border: none;
+    background: #eaeaea;
+}
+
+ul.nav-tabs li a {
+    color: #8b8a8d;
+}
+
+ul.nav-tabs li:last-child {
+    border: 0;
+}
+
+ul.nav-tabs {
+    border-bottom: 1px solid #BFBFBF;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+ul.nav-tabs li.active a {
+    background: #fff;
+    color: #184140;
+    font-weight: 500;
+}

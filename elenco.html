@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <title>Oro salus theme</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="img/icons/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+  <link rel="manifest" href="img/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.theme.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href="css/elenco.css" rel="stylesheet">
+
+</head>
+
+<body class="page-index has-hero bodyBg" data-stellar-background-ratio="0.1">
+  <!--Change the background class to alter background image, options are: benches, boots, buildings, city, metro -->
+  <header>
+
+    <!--Header & navbar-branding region-->
+    <div class="container">
+      <div class="row bgHeaderWhite">
+        <a class="navbar-brand" href="index.html" title="Home">
+          <h1 class="hidden">
+            <img src="img/logo.png" alt="Flexor Logo">
+            Oro Salus
+          </h1>
+        </a>
+
+        <!--header rightside-->
+        <!--user menu-->
+        <ul class="list-inline user-menu pull-right headerBar" role="menubar" >
+          <li class="user-register hidden-mobile"><a href="index.html" class="text-uppercase">Home</a></li>
+          <li class="user-register hidden-mobile"><a href="index.html" class="text-uppercase">Oro Salus</a></li>
+          <li class="user-register hidden-mobile"><a href="index.html" class="text-uppercase">Termini e Condizioni</a></li>
+          <li class="user-register"><i class="fa fa-edit text-primary "></i> <a href="register.html" class="text-uppercase">Registrati</a></li>
+          <li class="user-login"><i class="fa fa-sign-in text-primary"></i> <a href="login.html" class="text-uppercase">Login</a></li>
+        </ul>
+
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+
+    <div class="container">
+      <div class="row bgHeaderWhite">
+        <div class="navbar navbar-default">
+          <!--mobile collapse menu button-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+
+          <!--everything within this div is collapsed on mobile-->
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right" id="main-menu" role="menubar" aria-label="Oro salus menu">
+
+              <li class="dropdown bulletItems" role="none presentation">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" tabindex="0" >INFOSALUTE<b class="caret"></b></a>
+                <!-- Dropdown Menu -->
+                <ul class="dropdown-menu" role="menu" aria-label="Infosalute" >
+                  <li class="dropdown-header" role="none presentation">Sintomi</li>
+                  <li role="none presentation"><a href="elements.html" tabindex="-1" class="menu-item" role="menuitem">Febbre</a></li>
+                  <li role="none presentation"><a href="about.html" tabindex="-1" class="menu-item" role="menuitem">Mal di Schiena</a></li>
+                  <li role="none presentation"><a href="login.html" tabindex="-1" class="menu-item" role="menuitem">Dolori Articolari</a></li>
+                  <li role="none presentation"><a href="register.html" tabindex="-1" class="menu-item" role="menuitem">Lorem ipsum</a></li>
+                  <li class="dropdown-footer" role="none presentation">Dropdown footer</li>
+                </ul>
+              </li>
+
+              <li class="dropdown dropdown-mm bulletItems" role="none presentation">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODOTTI<b class="caret"></b></a>
+                <!-- Dropdown Menu -->
+                <ul class="dropdown-menu dropdown-menu-mm dropdown-menu-persist" role="menu" aria-label="Prodotti" >
+                  <li class="row" role="none presentation">
+                    <ul class="col-md-6" role="none presentation">
+                      <li class="dropdown-header" role="none presentation">Categoria 1</li>
+                      <li role="none presentation"><a href="#" role="menuitem">Lorem ipsum</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Dolor sit</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Amet sed</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Quoque sed etiam</a></li>
+                    </ul>
+                    <ul class="col-md-6" role="none presentation">
+                      <li class="dropdown-header" role="none presentation">Categoria 2</li>
+                      <li role="none presentation"><a href="#" role="menuitem">Lorem ipsum</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Dolor sit</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Amet sed</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Quoque sed etiam</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-footer" role="none presentation">
+                    <div class="row">
+                      <div class="col-md-7">Acquista i nostri prodotti</div>
+                      <div class="col-md-5">
+                        <a href="https://bootstrapmade.com" class="btn btn-more btn-lg pull-right"><i class="fa fa-cloud-download"></i> Acquista</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="bulletItems" role="none presentation"><a href="#" role="menuitem">Consulenza</a></li>
+              <li class="bulletItems" role="none presentation"><a href="#" role="menuitem">Contatti</a></li>
+              <li class="bulletItems" role="none presentation"><a href="#" role="menuitem" ><i class="fa fa-user text-primary "></i> user123</a></li>
+              <li class="bulletItems" role="none presentation"><a href="#" role="menuitem" ><i class="fa fa-shopping-cart text-primary "></i> (3)</a></li>
+
+            </ul>
+          </div><!--/.navbar-collapse -->
+
+        </div> <!--/.navbar -->
+
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+
+  </header>
+
+
+  <!-- ======== @Region: #main content ======== -->
+  <!-- ======== @Region: #main content ======== -->
+  <!-- ======== @Region: #main content ======== -->
+  <main >
+
+    <div class="container">
+      <div class="row mainContent">
+
+        <article class="col-md-8 paddingContent">
+
+          <ul class="nav nav-tabs tab-menu">
+            <li class="active"><a data-toggle="tab" href="#menu1">Sintomi</a></li>
+            <li><a data-toggle="tab" href="#menu2">Patologie</a></li>
+            <li><a data-toggle="tab" href="#menu3">Condizioni</a></li>
+            <li><a data-toggle="tab" href="#menu4">Effetti fisiologici</a></li>
+            <li><a data-toggle="tab" href="#menu5">Sostanze</a></li>
+          </ul>
+
+          <div class="tab-content">
+
+            <div id="menu1" class="tab-pane fade in active">
+              <div class="elenco-block">
+                <div class="elenco-block-capital">A.</div>
+                <ul class="list-items">
+                  <li>A orem ipsum</li>
+                  <li>Alo rem ipsum</li>
+                  <li>Alorem ipsum</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="menu2" class="tab-pane fade">
+              <div class="elenco-block">
+                <div class="elenco-block-capital">B.</div>
+                <ul class="list-items">
+                  <li>B orem ipsum</li>
+                  <li>Alo rem ipsum</li>
+                  <li>Alorem ipsum</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="menu3" class="tab-pane fade">
+              <div class="elenco-block">
+                <div class="elenco-block-capital">C.</div>
+                <ul class="list-items">
+                  <li>C orem ipsum</li>
+                  <li>Alo rem ipsum</li>
+                  <li>Alorem ipsum</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="menu4" class="tab-pane fade">
+              <div class="elenco-block">
+                <div class="elenco-block-capital">D.</div>
+                <ul class="list-items">
+                  <li>A orem ipsum</li>
+                  <li>Alo rem ipsum</li>
+                  <li>Alorem ipsum</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="menu5" class="tab-pane fade">
+              <div class="elenco-block">
+                <div class="elenco-block-capital">E.</div>
+                <ul class="list-items">
+                  <li>A orem ipsum</li>
+                  <li>Alo rem ipsum</li>
+                  <li>Alorem ipsum</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </article>
+
+        <aside class="col-md-4">
+
+          <div class="aside-infosalute">
+
+            <div class="infosalute-heading">
+              <img src="../orosalus-master/img/icona-cuore-neg.png" alt="Infosalute icon" />
+              <div class="infosalute-heading-text">
+                <span class="infosalute-heading-text__title">Infosalute</span>
+                <span class="infosalute-heading-text__subtitle">Sintomi, Patologie, Condizioni, Effetti fisiologici, Sostanze</span>
+              </div>
+            </div>
+
+            <div class="infosalute-searchbox">
+              <input type="search" placeholder="ex. Febbre" />
+              <button type="submit">Cerca</button>
+            </div>
+
+          </div>
+
+          <a href="#">
+            <div class="aside-prodotti">
+              <img src="../orosalus-master/img/icona-orosalus-neg.png" alt="Prodotti icon" />
+              <h3>Prodotti</h3>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="aside-consulenza">
+              <img src="../orosalus-master/img/icona-question-neg.png" alt="Prodotti icon" />
+              <h3>Consulente online</h3>
+            </div>
+          </a>
+
+          <div class="aside-banner-prodotti">
+            <img src="../orosalus-master/img/banner-aside-scopri-prodotti.jpg" alt="Prodotti icon" />
+          </div>
+
+          <div class="aside-prodotti-consigliati">
+            <div class="aside-prodotti-consigliati__head">
+              <img src="../orosalus-master/img/img-termomtero.jpg" alt="Prodotti consigliati" />
+            </div>
+            <div class="aside-prodotti-consigliati__body">
+              <h3>Febbre</h3>
+              <h4>special, special, special</h4>
+              <p>Si consiglia di affettuare le misurazioni con un termometro elettronico ben appoggiato sotto la lingua senza ingerire cibi/bevande calde o fredde nei 20 minuti precedenti...</p>
+            </div>
+            <div class="aside-prodotti-consigliati__slider">
+              <h4>Prodotti consigliati</h4>
+
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <!-- <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol> -->
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="../orosalus-master/img/slider-integratore.png" alt="Slider integratore">
+                  </div>
+
+                  <div class="item">
+                    <img src="../orosalus-master/img/slider-integratore-2.png" alt="Slider integratore 2">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </aside>
+
+      </div> <!-- /row mainContent -->
+
+      <div class="pre-footer">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-sm-8 pre-footer-block1">
+              <div class="pre-footer-block1__title">News</div>
+              <div class="pre-footer-block1__grid">
+
+                <div class="pre-footer-block1__grid__elem1">
+                  <div class="pre-footer-block1__date">Aprile 2017</div>
+                  <div class="pre-footer-block1__grid__title">Lorem ipsum dolor sit amet</div>
+                  <div class="pre-footer-block1__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </div>
+
+                <div class="pre-footer-block1__grid__elem2">
+                  <div class="pre-footer-block1__date">Aprile 2017</div>
+                  <div class="pre-footer-block1__grid__title">Nostrud exercitation ullamco</div>
+                  <div class="pre-footer-block1__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate.</div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-sm-4 pre-footer-block2">
+              <div class="pre-footer-block1__title">Dicono di noi</div>
+              <div class="pre-footer-block1__widget">
+                <img src="C:\Users\f.colca\Documents\PROGETTI\OROSALUS\orosalus-master\img\widget-trustpilot.jpg" alt="Trustpilot Widget" />
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- /row mainContent -->
+
+  </main>
+  <!-- ======== @Region: #main content ======== -->
+  <!-- ======== @Region: #main content ======== -->
+  <!-- ======== @Region: #main content ======== -->
+
+
+  <!-- ======== @Region: #footer ======== -->
+  <!-- ======== @Region: #footer ======== -->
+  <!-- ======== @Region: #footer ======== -->
+  <footer id="footer" class="block" >
+    <div class="container">
+
+      <div class="row" id="contact">
+
+        <div class="col-md-3 col-sm-6 col-sx-12 text-center">
+          <div class="block">
+            <address>
+              <div itemscope itemtype="http://schema.org/LocalBusiness">
+              <img src="./img/logo-footer.png" class="logoFooter" itemprop="image" alt="oro salussmall logo" ><br/>
+              <strong itemprop="name">Orosalus srl</strong><br>
+              <small itemprop="description">Lorem ipsum dolor sit amet sed etiam</small><br>
+              <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" >
+                <span itemprop="streetAddress">Loc. Drove, 14</span><br>
+                <span itemprop="addressLocality">53036 Poggibonsi</span>
+                <span itemprop="addressRegion">(Siena) - Italy</span>
+              </div>
+              <br><br>
+              <span itemprop="telephone"><i class="fa fa-phone fa-fw"></i> +39 000 00000000</span>
+              <br>
+              <span itemprop="email"><i class="fa fa-envelope-o fa-fw"></i> info@orosalus.com</span>
+              <br>
+              </div>
+            </address>
+          </div> <!-- /block -->
+        </div> <!-- /col-md-3 col-sm-3 col-xs-6 -->
+
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="block">
+          <ul class="footerMenu ">
+            <li class="largeMenu" ><a href="#" title="" >HOME</a></li>
+            <li class="largeMenu" ><a href="#" title="" >AZIENDA</a></li>
+            <li class="largeMenu" ><a href="#" title="" >CONTATTACI</a></li>
+          </ul>
+
+          <ul class="footerMenu ">
+            <li class="largeMenu" ><a href="#" title="" >PRINCIPI ATTIVI</a></li>
+            <li ><a href="#" title="" >lorem ipsum</a></li>
+            <li ><a href="#" title="" >dolor sit</a></li>
+            <li ><a href="#" title="" >amet sed</a></li>
+            <li ><a href="#" title="" >etiam quod sit</a></li>
+          </ul>
+
+          </div> <!-- /block -->
+        </div> <!-- /col-md-3 col-sm-3 col-xs-6 -->
+
+
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="block">
+          <ul class="footerMenu ">
+            <li class="largeMenu" ><a href="prodotti.html" title="" >PRODOTTI</a></li>
+            <li ><a href="#" title="" >lorem ipsum</a></li>
+            <li ><a href="#" title="" >dolor sit</a></li>
+            <li ><a href="#" title="" >amet sed</a></li>
+            <li ><a href="#" title="" >etiam quod sit</a></li>
+            <li ><a href="#" title="" >ut lorem ipsum</a></li>
+            <li ><a href="#" title="" >dolor sit 2</a></li>
+            <li ><a href="#" title="" >amet sed</a></li>
+            <li ><a href="#" title="" >etiam quod sit</a></li>
+          </ul>
+          </div> <!-- /block -->
+        </div> <!-- /col-md-3 col-sm-3 col-xs-6 -->
+
+        <div class="col-md-3 col-sm-12 col-xs-12">
+          <div class="block">
+          <h4 class="text-uppercase">
+              Social links:
+            </h4>
+          <!--social media icons-->
+          <div class="social-media social-media-stacked">
+            <!--@todo: replace with company social media details-->
+            <a href="#"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+            <a href="#"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+            <a href="#"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+            <a href="#"><i class="fa fa-google-plus fa-fw"></i> Google+</a>
+          </div>
+          </div> <!-- /block -->
+        </div> <!-- /col-md-3 col-sm-3 col-xs-6 -->
+
+      </div>  <!-- /row -->
+
+      <div class="row subfooter">
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <p>© Copyright 2019 Orosalus S.r.l. Tutti i diritti riservati.</p>
+          <div class="credits">
+            Developed by <a href="#"></a> | Designed by <a href="#">+comm</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <ul class="list-inline pull-right">
+            <li><a href="#">Termini e Condizioni</a></li>
+            <li><a href="#">Pagamenti</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Contattaci</a></li>
+          </ul>
+        </div>
+
+      </div>  <!-- /row -->
+
+      <a href="#top" class="scrolltop">Top</a>
+
+    </div>
+  </footer>
+
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/stellar/stellar.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
