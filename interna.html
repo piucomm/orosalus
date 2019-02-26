@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <title>Oro salus theme</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="img/icons/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+  <link rel="manifest" href="img/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.theme.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href="css/interna.css" rel="stylesheet">
+
+</head>
+
+<body class="page-index has-hero bodyBg" data-stellar-background-ratio="0.1">
+  <!--Change the background class to alter background image, options are: benches, boots, buildings, city, metro -->
+  <header>
+
+    <!--Header & navbar-branding region-->
+    <div class="container">
+      <div class="row bgHeaderWhite">
+        <a class="navbar-brand" href="index.html" title="Home">
+          <h1 class="hidden">
+            <img src="img/logo.png" alt="Flexor Logo">
+            Oro Salus
+          </h1>
+        </a>
+
+        <!--header rightside-->
+        <!--user menu-->
+        <ul class="list-inline user-menu pull-right headerBar" role="menubar" >
+          <li class="user-register hidden-mobile"><a href="index.html" class="text-uppercase">Home</a></li>
+          <li class="user-register hidden-mobile"><a href="index.html" class="text-uppercase">Oro Salus</a></li>
+          <li class="user-register hidden-mobile"><a href="index.html" class="text-uppercase">Termini e Condizioni</a></li>
+          <li class="user-register"><i class="fa fa-edit text-primary "></i> <a href="register.html" class="text-uppercase">Registrati</a></li>
+          <li class="user-login"><i class="fa fa-sign-in text-primary"></i> <a href="login.html" class="text-uppercase">Login</a></li>
+        </ul>
+
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+
+    <div class="container">
+      <div class="row bgHeaderWhite">
+        <div class="navbar navbar-default">
+          <!--mobile collapse menu button-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+
+          <!--everything within this div is collapsed on mobile-->
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right" id="main-menu" role="menubar" aria-label="Oro salus menu">
+
+              <li class="dropdown bulletItems" role="none presentation">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" tabindex="0" >INFOSALUTE<b class="caret"></b></a>
+                <!-- Dropdown Menu -->
+                <ul class="dropdown-menu" role="menu" aria-label="Infosalute" >
+                  <li class="dropdown-header" role="none presentation">Sintomi</li>
+                  <li role="none presentation"><a href="elements.html" tabindex="-1" class="menu-item" role="menuitem">Febbre</a></li>
+                  <li role="none presentation"><a href="about.html" tabindex="-1" class="menu-item" role="menuitem">Mal di Schiena</a></li>
+                  <li role="none presentation"><a href="login.html" tabindex="-1" class="menu-item" role="menuitem">Dolori Articolari</a></li>
+                  <li role="none presentation"><a href="register.html" tabindex="-1" class="menu-item" role="menuitem">Lorem ipsum</a></li>
+                  <li class="dropdown-footer" role="none presentation">Dropdown footer</li>
+                </ul>
+              </li>
+
+              <li class="dropdown dropdown-mm bulletItems" role="none presentation">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODOTTI<b class="caret"></b></a>
+                <!-- Dropdown Menu -->
+                <ul class="dropdown-menu dropdown-menu-mm dropdown-menu-persist" role="menu" aria-label="Prodotti" >
+                  <li class="row" role="none presentation">
+                    <ul class="col-md-6" role="none presentation">
+                      <li class="dropdown-header" role="none presentation">Categoria 1</li>
+                      <li role="none presentation"><a href="#" role="menuitem">Lorem ipsum</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Dolor sit</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Amet sed</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Quoque sed etiam</a></li>
+                    </ul>
+                    <ul class="col-md-6" role="none presentation">
+                      <li class="dropdown-header" role="none presentation">Categoria 2</li>
+                      <li role="none presentation"><a href="#" role="menuitem">Lorem ipsum</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Dolor sit</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Amet sed</a></li>
+                      <li role="none presentation"><a href="#" role="menuitem">Quoque sed etiam</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-footer" role="none presentation">
+                    <div class="row">
+                      <div class="col-md-7">Acquista i nostri prodotti</div>
+                      <div class="col-md-5">
+                        <a href="https://bootstrapmade.com" class="btn btn-more btn-lg pull-right"><i class="fa fa-cloud-download"></i> Acquista</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="bulletItems" role="none presentation"><a href="#" role="menuitem">Consulenza</a></li>
+              <li class="bulletItems" role="none presentation"><a href="#" role="menuitem">Contatti</a></li>
+              <li class="bulletItems" role="none presentation"><a href="#" role="menuitem" ><i class="fa fa-user text-primary "></i> user123</a></li>
+              <li class="bulletItems" role="none presentation"><a href="#" role="menuitem" ><i class="fa fa-shopping-cart text-primary "></i> (3)</a></li>
+
+            </ul>
+          </div><!--/.navbar-collapse -->
+
+        </div> <!--/.navbar -->
+
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+
+  </header>
+
+
+  <!-- ======== @Region: #main content ======== -->
+  <!-- ======== @Region: #main content ======== -->
+  <!-- ======== @Region: #main content ======== -->
+  <main >
+
+    <div class="container">
+
+      <div class="row torna-risultati">
+        <button><i class="fa fa-angle-left" aria-hidden="true"></i> Torna ai risultati</button>
+      </div>
+
+
+      <div class="row mainContent">
+
+        <article class="col-md-8 paddingContent">
+
+          <div class="headerPage">
+
+            <div class="headerPage-top">
+              <div class="title-container">
+                <h1 class="titlePage">Diabete Mellito di tipo 1 (insulino dipendente)</h1>
+              </div>
+              <div class="header-title-icon">
+                <img src="../orosalus-master/img/icona-select-result.png" alt="Header title icon" />
+              </div>
+            </div>
+
+            <div class="headerPage-intro">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+
+          </div> <!-- End headerPage -->
+
+          <div class="tables">
+
+            <h2 class="table-title">
+              Sintomi, Patologie e Condizioni comuni
+            </h2>
+
+            <table class="table">
+              <tbody>
+
+                <tr>
+                  <td><a href="#">Insufficienza renale (Nefropatia) cronica - Glomerulonefrite</a></td>
+                  <td><a href="#"><i class="fa fa-long-arrow-right fa-2" aria-hidden="true"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#">Emoglobina Glicosilata (>6,2%) (HB, HGB) eccesso</a></td>
+                  <td><a href="#"><i class="fa fa-long-arrow-right fa-2" aria-hidden="true"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#">Scossa elettrica/Bruciore ai piedi (profondo)</a></td>
+                  <td><a href="#"><i class="fa fa-long-arrow-right fa-2" aria-hidden="true"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#">Sete aumentata (polidipsia)</a></td>
+                  <td><a href="#"><i class="fa fa-long-arrow-right fa-2" aria-hidden="true"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#">Urine: Emissione eccessiva nelle 24 ore (Poliuria)</a></td>
+                  <td><a href="#"><i class="fa fa-long-arrow-right fa-2" aria-hidden="true"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#">Appetito aumentato</a></td>
+                  <td><a href="#"><i class="fa fa-long-arrow-right fa-2" aria-hidden="true"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#">Insufficienza renale (Nefropatia) acuta</a></td>
+                  <td><a href="#"><i class="fa fa-long-arrow-right fa-2" aria-hidden="true"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#">Obesità</a></td>
+                  <td><a href="#"><i class="fa fa-long-arrow-right fa-2" aria-hidden="true"></i></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#">Glicemia (S-Glucosio) (iperglicemia) eccesso</a></td>
+                  <td><a href="#"><i class="fa fa-long-arrow-right fa-2" aria-hidden="true"></i></a></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+          <div class="farmaci-associati">
+            <h2 class="table-title">Farmaci normalmente associati</h2>
+            <p class="farmaci-associati__text">
+              Medicinali: insulina
+            </p>
+          </div>
+
+          <div class="approfondimenti">
+            <h2 class="table-title">Per approfondire</h2>
+
+            <div class="approfondimenti__block">
+              <a href="#">
+                <div class="approfondimenti__left">
+                  <img src="../orosalus-master/img/icona-approfondimento.png" alt="Icona approfondimento" />
+                </div>
+                <div class="approfondimenti__right">
+                  <h3 class="approfondimenti_title">Diabete mellito</h3>
+                  <p>
+                    Il diabete mellito è una combinazione di una ridotta secrezione insulinica e di vari gradi di resistenza periferica all'insulina stessa, che determina iperglicemia. I sintomi precoci sono legati all'iperglicemia e comprendono polidipsia,
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="approfondimenti__block">
+              <a href="#">
+                <div class="approfondimenti__left">
+                  <img src="../orosalus-master/img/icona-approfondimento.png" alt="Icona approfondimento" />
+                </div>
+                <div class="approfondimenti__right">
+                  <h3 class="approfondimenti_title">Diabete mellito</h3>
+                  <p>
+                    Il diabete mellito è una combinazione di una ridotta secrezione insulinica e di vari gradi di resistenza periferica all'insulina stessa, che determina iperglicemia. I sintomi precoci sono legati all'iperglicemia e comprendono polidipsia,
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="approfondimenti__block">
+              <a href="#">
+                <div class="approfondimenti__left">
+                  <img src="../orosalus-master/img/icona-approfondimento.png" alt="Icona approfondimento" />
+                </div>
+                <div class="approfondimenti__right">
+                  <h3 class="approfondimenti_title">Diabete mellito</h3>
+                  <p>
+                    Il diabete mellito è una combinazione di una ridotta secrezione insulinica e di vari gradi di resistenza periferica all'insulina stessa, che determina iperglicemia. I sintomi precoci sono legati all'iperglicemia e comprendono polidipsia,
+                  </p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+        </article>
+
+        <aside class="col-md-4">
+
+          <h2 class="aside-heading">Prodotti consigliati *</h2>
+
+          <div class="gridProducts">
+
+            <div class="gridProducts-block" data-id="1" data-name="a" data-type="integratori">
+              <div class="gridProducts-block-left">
+                <div class="gridProducts-block-left__title">Curcuma</div>
+                <div class="gridProducts-block-left__shortDescr">18 pasticche da 155 mg</div>
+                <div class="gridProducts-block-left__descr">
+                  <em>Effetti fisiologici<br>
+                    Ipoglicemizzante<br>
+                  </em>
+                  La Curcuma (Curcuma longa L.), detta anche "zafferano delle Indie", è una spezia largamente utilizzata nella cucina indiana e mediorientale.
+                  <span class="gridProducts-block__readmore">leggi di più</span>
+                </div>
+              </div>
+              <div class="gridProducts-block-right">
+                <!-- <img src="/img/prod-sample.jpg" alt="Prodotto esempio" /> -->
+                <img src="C:\Users\f.colca\Documents\PROGETTI\OROSALUS\orosalus-master\img\prod-sample.jpg" alt="Prodotto esempio">
+              </div>
+              <div class="gridProducts-block-bottom">
+                <div class="gridProducts-block-bottom__price">9,00 €</div>
+                <div class="cta gridProducts-block-bottom__cta"><a href="#">Acquista</a></div>
+              </div>
+            </div>
+
+            <div class="gridProducts-block" data-id="1" data-name="a" data-type="integratori">
+              <div class="gridProducts-block-left">
+                <div class="gridProducts-block-left__title">Curcuma</div>
+                <div class="gridProducts-block-left__shortDescr">18 pasticche da 155 mg</div>
+                <div class="gridProducts-block-left__descr">
+                  <em>Effetti fisiologici<br>
+                    Ipoglicemizzante<br>
+                  </em>
+                  La Curcuma (Curcuma longa L.), detta anche "zafferano delle Indie", è una spezia largamente utilizzata nella cucina indiana e mediorientale.
+                  <span class="gridProducts-block__readmore">leggi di più</span>
+                </div>
+              </div>
+              <div class="gridProducts-block-right">
+                <!-- <img src="/img/prod-sample.jpg" alt="Prodotto esempio" /> -->
+                <img src="C:\Users\f.colca\Documents\PROGETTI\OROSALUS\orosalus-master\img\prod-sample.jpg" alt="Prodotto esempio">
+              </div>
+              <div class="gridProducts-block-bottom">
+                <div class="gridProducts-block-bottom__price">15,00 €</div>
+                <div class="cta gridProducts-block-bottom__cta"><a href="#">Acquista</a></div>
+              </div>
+            </div>
+
+            <div class="gridProducts-block" data-id="1" data-name="a" data-type="integratori">
+              <div class="gridProducts-block-left">
+                <div class="gridProducts-block-left__title">Curcuma</div>
+                <div class="gridProducts-block-left__shortDescr">18 pasticche da 155 mg</div>
+                <div class="gridProducts-block-left__descr">
+                  <em>Effetti fisiologici<br>
+                    Ipoglicemizzante<br>
+                  </em>
+                  La Curcuma (Curcuma longa L.), detta anche "zafferano delle Indie", è una spezia largamente utilizzata nella cucina indiana e mediorientale.
+                  <span class="gridProducts-block__readmore">leggi di più</span>
+                </div>
+              </div>
+              <div class="gridProducts-block-right">
+                <!-- <img src="/img/prod-sample.jpg" alt="Prodotto esempio" /> -->
+                <img src="C:\Users\f.colca\Documents\PROGETTI\OROSALUS\orosalus-master\img\prod-sample.jpg" alt="Prodotto esempio">
+              </div>
+              <div class="gridProducts-block-bottom">
+                <div class="gridProducts-block-bottom__price">22,00 €</div>
+                <div class="cta gridProducts-block-bottom__cta"><a href="#">Acquista</a></div>
+              </div>
+            </div>
+
+            <div class="gridProducts-block" data-id="1" data-name="a" data-type="integratori">
+              <div class="gridProducts-block-left">
+                <div class="gridProducts-block-left__title">Curcuma</div>
+                <div class="gridProducts-block-left__shortDescr">18 pasticche da 155 mg</div>
+                <div class="gridProducts-block-left__descr">
+                  <em>Effetti fisiologici<br>
+                    Ipoglicemizzante<br>
+                  </em>
+                  La Curcuma (Curcuma longa L.), detta anche "zafferano delle Indie", è una spezia largamente utilizzata nella cucina indiana e mediorientale.
+                  <span class="gridProducts-block__readmore">leggi di più</span>
+                </div>
+              </div>
+              <div class="gridProducts-block-right">
+                <!-- <img src="/img/prod-sample.jpg" alt="Prodotto esempio" /> -->
+                <img src="C:\Users\f.colca\Documents\PROGETTI\OROSALUS\orosalus-master\img\prod-sample.jpg" alt="Prodotto esempio">
+              </div>
+              <div class="gridProducts-block-bottom">
+                <div class="gridProducts-block-bottom__price">12,00 €</div>
+                <div class="cta gridProducts-block-bottom__cta"><a href="#">Acquista</a></div>
+              </div>
+            </div>
+
+          </div>
+
+        </aside>
+
+      </div> <!-- /row mainContent -->
+
+      <div class="pre-footer">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-sm-8 pre-footer-block1">
+              <div class="pre-footer-block1__title">News</div>
+              <div class="pre-footer-block1__grid">
+
+                <div class="pre-footer-block1__grid__elem1">
+                  <div class="pre-footer-block1__date">Aprile 2017</div>
+                  <div class="pre-footer-block1__grid__title">Lorem ipsum dolor sit amet</div>
+                  <div class="pre-footer-block1__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                </div>
+
+                <div class="pre-footer-block1__grid__elem2">
+                  <div class="pre-footer-block1__date">Aprile 2017</div>
+                  <div class="pre-footer-block1__grid__title">Nostrud exercitation ullamco</div>
+                  <div class="pre-footer-block1__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate.</div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-sm-4 pre-footer-block2">
+                <div class="pre-footer-block1__title">Dicono di noi</div>
+                <div class="pre-footer-block1__widget">
+                  <img src="C:\Users\f.colca\Documents\PROGETTI\OROSALUS\orosalus-master\img\widget-trustpilot.jpg" alt="Trustpilot Widget" />
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div> <!-- /row mainContent -->
+
+    </main>
+    <!-- ======== @Region: #main content ======== -->
+    <!-- ======== @Region: #main content ======== -->
+    <!-- ======== @Region: #main content ======== -->
+
+
+    <!-- ======== @Region: #footer ======== -->
+    <!-- ======== @Region: #footer ======== -->
+    <!-- ======== @Region: #footer ======== -->
+    <footer id="footer" class="block" >
+      <div class="container">
+
+        <div class="row" id="contact">
+
+          <div class="col-md-3 col-sm-6 col-sx-12 text-center">
+            <div class="block">
+              <address>
+                <div itemscope itemtype="http://schema.org/LocalBusiness">
+                  <img src="./img/logo-footer.png" class="logoFooter" itemprop="image" alt="oro salussmall logo" ><br/>
+                  <strong itemprop="name">Orosalus srl</strong><br>
+                  <small itemprop="description">Lorem ipsum dolor sit amet sed etiam</small><br>
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" >
+                    <span itemprop="streetAddress">Loc. Drove, 14</span><br>
+                    <span itemprop="addressLocality">53036 Poggibonsi</span>
+                    <span itemprop="addressRegion">(Siena) - Italy</span>
+                  </div>
+                  <br><br>
+                  <span itemprop="telephone"><i class="fa fa-phone fa-fw"></i> +39 000 00000000</span>
+                  <br>
+                  <span itemprop="email"><i class="fa fa-envelope-o fa-fw"></i> info@orosalus.com</span>
+                  <br>
+                </div>
+              </address>
+            </div> <!-- /block -->
+          </div> <!-- /col-md-3 col-sm-3 col-xs-6 -->
+
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="block">
+              <ul class="footerMenu ">
+                <li class="largeMenu" ><a href="#" title="" >HOME</a></li>
+                <li class="largeMenu" ><a href="#" title="" >AZIENDA</a></li>
+                <li class="largeMenu" ><a href="#" title="" >CONTATTACI</a></li>
+              </ul>
+
+              <ul class="footerMenu ">
+                <li class="largeMenu" ><a href="#" title="" >PRINCIPI ATTIVI</a></li>
+                <li ><a href="#" title="" >lorem ipsum</a></li>
+                <li ><a href="#" title="" >dolor sit</a></li>
+                <li ><a href="#" title="" >amet sed</a></li>
+                <li ><a href="#" title="" >etiam quod sit</a></li>
+              </ul>
+
+            </div> <!-- /block -->
+          </div> <!-- /col-md-3 col-sm-3 col-xs-6 -->
+
+
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="block">
+              <ul class="footerMenu ">
+                <li class="largeMenu" ><a href="prodotti.html" title="" >PRODOTTI</a></li>
+                <li ><a href="#" title="" >lorem ipsum</a></li>
+                <li ><a href="#" title="" >dolor sit</a></li>
+                <li ><a href="#" title="" >amet sed</a></li>
+                <li ><a href="#" title="" >etiam quod sit</a></li>
+                <li ><a href="#" title="" >ut lorem ipsum</a></li>
+                <li ><a href="#" title="" >dolor sit 2</a></li>
+                <li ><a href="#" title="" >amet sed</a></li>
+                <li ><a href="#" title="" >etiam quod sit</a></li>
+              </ul>
+            </div> <!-- /block -->
+          </div> <!-- /col-md-3 col-sm-3 col-xs-6 -->
+
+          <div class="col-md-3 col-sm-12 col-xs-12">
+            <div class="block">
+              <h4 class="text-uppercase">
+                Social links:
+              </h4>
+              <!--social media icons-->
+              <div class="social-media social-media-stacked">
+                <!--@todo: replace with company social media details-->
+                <a href="#"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+                <a href="#"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+                <a href="#"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+                <a href="#"><i class="fa fa-google-plus fa-fw"></i> Google+</a>
+              </div>
+            </div> <!-- /block -->
+          </div> <!-- /col-md-3 col-sm-3 col-xs-6 -->
+
+        </div>  <!-- /row -->
+
+        <div class="row subfooter">
+
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <p>© Copyright 2019 Orosalus S.r.l. Tutti i diritti riservati.</p>
+            <div class="credits">
+              Developed by <a href="#"></a> | Designed by <a href="#">+comm</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <ul class="list-inline pull-right">
+              <li><a href="#">Termini e Condizioni</a></li>
+              <li><a href="#">Pagamenti</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Contattaci</a></li>
+            </ul>
+          </div>
+
+        </div>  <!-- /row -->
+
+        <a href="#top" class="scrolltop">Top</a>
+
+      </div>
+    </footer>
+
+    <!-- Required JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/stellar/stellar.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Template Specisifc Custom Javascript File -->
+    <script src="js/custom.js"></script>
+
+  </body>
+
+  </html>
