@@ -1522,7 +1522,7 @@ header .row.bgHeaderWhite {
 }
 
   .header-inner .row { background: #ffffff; }
-  
+
 
 
   .headerBar {
@@ -1555,14 +1555,14 @@ main {
     main .mainContent .paddingContent {
       margin: 10px 0px;
       font-size:1em;
-      line-height:1.2em; 
+      line-height:1.2em;
     }
 
       main .mainContent .paddingContent p {
         padding: 5px 0px;
-        color: #666666;
+        color: #444;
         line-height: 20px;
-        font-weight: 300;
+        font-weight: 400;
       }
 
 
@@ -1819,16 +1819,16 @@ main {
   content: '\2027';
   font-size: 38px;
   color: #e4be13;;
-  position: absolute;  
-  top: 0px;  
-  margin: 0 0 0 0;    
+  position: absolute;
+  top: 0px;
+  margin: 0 0 0 0;
   vertical-align: middle;
   display: inline-block;
 
 }
 
 .navbar-default .navbar-nav li:last-child {
-  
+
 }
 .navbar-default .navbar-nav li a {
   font-family: "Oswald", sans-serif;
@@ -2351,3 +2351,129 @@ ul.nav-tabs.nav-tabs-right > li:last-child {
   padding-bottom: 3rem !important;
 }
 
+
+/* Stili comuni a tutti i template */
+
+/* Pre footer */
+.pre-footer {
+    background: #eaeaea;
+    margin-top: 30px;
+}
+
+.pre-footer-block1__title {
+    font-size: 1.6em;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom: 12px;
+    width: 90px;
+}
+
+.pre-footer-block1 {
+    padding: 15px 25px;
+    border-right: 3px solid #999999;
+    margin: 25px 0;
+}
+
+.pre-footer-block1__date {
+    color: #e3bd12;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.pre-footer-block1__grid__elem1 {
+    padding-right: 40px;
+}
+
+.pre-footer-block1__grid {
+    display: flex;
+}
+
+.pre-footer-block2 {
+    margin: 25px 0;
+    padding: 15px 25px;
+}
+
+.pre-footer-block2 .pre-footer-block1__title {
+    width: 150px;
+}
+
+.divProducts--inline .gridProducts-block-left {
+    float: right;
+    width: 75%;
+}
+
+.divProducts--inline .gridProducts-block-right {
+    float: left;
+    width: 20%;
+}
+
+.divProducts--inline .gridProducts-block-left {
+    width: 80%;
+    display: inline-block;
+}
+
+.divProducts--inline .gridProducts-block-bottom {
+    width: 30%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Sovrascrivo Bootstrap */
+ul.nav.nav-tabs {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+ul.nav-tabs li:last-child {
+    border: 0;
+}
+
+ul.nav-tabs li {
+    border: none;
+    color: #555;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.nav-tabs li a {
+    border: 0;
+    color: #fff;
+    font-size: .9em;
+    text-decoration: underline;
+    padding: 0;
+    margin-left: 10px;
+}
+
+li.dropdown {
+    padding: 0!important;
+    margin: 0 5px!important;
+    display: inline-block;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background: transparent;
+}
+
+i.fa.fa-th-large.fa-1, i.fa.fa-th-list.fa-1 {
+    font-size: 1.6em;
+}
+
+@media screen and (max-width: 767px) {
+  .pre-footer-block1__grid {
+      display: block!important;
+  }
+
+  .block { text-align: center; }
+
+  .social-media.social-media-stacked a {
+    display: inline-block;
+}
+
+}
